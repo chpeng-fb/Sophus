@@ -2,10 +2,10 @@
 
 #include "SO3PyBind.h"
 
-#include <sophus/average.hpp>
 #include <sophus/common.hpp>
 #include <sophus/interpolate.hpp>
 #include <sophus/se3.hpp>
+#include <sophus/average.hpp>
 
 #include <pybind11/eigen.h>
 #include <pybind11/numpy.h>
